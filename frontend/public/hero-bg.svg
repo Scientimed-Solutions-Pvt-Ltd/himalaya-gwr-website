@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <!-- Hero Background Placeholder - Hands holding soil with plant -->
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a5a1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d3d0d;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="lightGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffcc;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#ffffcc;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#skyGradient)"/>
+  
+  <!-- Light glow from top left -->
+  <ellipse cx="200" cy="150" rx="400" ry="300" fill="url(#lightGlow)"/>
+  
+  <!-- Hands silhouette -->
+  <ellipse cx="400" cy="700" rx="250" ry="150" fill="#2d1810" opacity="0.8"/>
+  
+  <!-- Soil mound -->
+  <ellipse cx="400" cy="650" rx="180" ry="80" fill="#3d2817"/>
+  <ellipse cx="400" cy="640" rx="160" ry="60" fill="#4a3020"/>
+  
+  <!-- Plant/Seedling -->
+  <path d="M400 640 Q380 580 350 560 Q400 590 400 640" fill="#228B22"/>
+  <path d="M400 640 Q420 580 450 560 Q400 590 400 640" fill="#32CD32"/>
+  <ellipse cx="400" cy="555" rx="15" ry="25" fill="#228B22" transform="rotate(-15 400 555)"/>
+  <ellipse cx="400" cy="555" rx="15" ry="25" fill="#32CD32" transform="rotate(15 400 555)"/>
+  
+  <!-- Decorative leaves in background -->
+  <ellipse cx="150" cy="200" rx="80" ry="40" fill="#1a4a1a" transform="rotate(-30 150 200)"/>
+  <ellipse cx="100" cy="300" rx="60" ry="30" fill="#1a5a1a" transform="rotate(-45 100 300)"/>
+  
+  <!-- Placeholder text -->
+  <text x="960" y="540" font-family="Arial, sans-serif" font-size="48" fill="rgba(255,255,255,0.1)" text-anchor="middle">
+    Replace with actual hero image
+  </text>
+</svg>

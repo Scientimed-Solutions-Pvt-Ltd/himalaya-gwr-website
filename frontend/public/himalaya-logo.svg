@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 60">
+  <!-- Himalaya Logo - Orange waves -->
+  <g fill="#F37021">
+    <!-- Top wave -->
+    <path d="M10 10 C30 10, 40 5, 60 10 C80 15, 90 8, 100 10" stroke="#F37021" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- Middle wave -->
+    <path d="M10 20 C30 20, 40 15, 60 20 C80 25, 90 18, 100 20" stroke="#F37021" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <!-- Bottom wave -->
+    <path d="M10 30 C30 30, 40 25, 60 30 C80 35, 90 28, 100 30" stroke="#F37021" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- Since 1930 text -->
+  <text x="30" y="50" font-family="Arial, sans-serif" font-size="10" fill="#F37021" font-weight="bold">SINCE 1930</text>
+</svg>
