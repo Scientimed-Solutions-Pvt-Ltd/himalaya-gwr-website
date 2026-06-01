@@ -8,3 +8,4 @@ export { default as ReferencePhotoModal } from './ReferencePhotoModal';
 export { default as SuccessMessage } from './SuccessMessage';
 export { default as TaglineSection } from './TaglineSection';
 export { default as Footer } from './Footer';
+export { default as MyParticipantList } from './MyParticipantList';

@@ -4,7 +4,7 @@ import heroBgMobile from '../assets/images/hero-bg-sm.png';
 
 const HeroSection = ({ children }) => {
   return (
-    <section className="relative min-h-screen pt-[20px] md:pt-[30px]">
+    <section className="relative min-h-auto pt-[20px] md:pt-[30px]">
       {/* Background Image for Mobile */}
       <div 
         className="absolute inset-0 bg-contain bg-top-right bg-no-repeat block md:hidden"
@@ -22,7 +22,7 @@ const HeroSection = ({ children }) => {
       />
       
       {/* Content Container */}
-      <div className="relative z-10 container mx-auto px-4 py-8 md:py-12">
+      <div className="relative z-10 container mx-auto px-4 pt-8 pb-2 md:pt-12 md:pb-8">
         <div className="flex flex-col lg:flex-row items-center lg:items-start gap-8">
           {/* Hero Text */}
           <div className="lg:w-1/2 text-center lg:text-left pt-4 lg:pt-8">

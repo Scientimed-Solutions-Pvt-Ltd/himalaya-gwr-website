@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import WellnessRegistration from './pages/WellnessRegistration'
 import PhotoCapture from './pages/PhotoCapture'
 import SuccessPage from './pages/SuccessPage'
+import MyParticipant from './pages/MyParticipant'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/wellness" element={<WellnessRegistration />} />
         <Route path="/photo" element={<PhotoCapture />} />
         <Route path="/success" element={<SuccessPage />} />
+        <Route path="/myparticipant" element={<MyParticipant />} />
       </Routes>
     </BrowserRouter>
   )

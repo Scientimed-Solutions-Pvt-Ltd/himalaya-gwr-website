@@ -2,7 +2,7 @@ import React from 'react';
 
 const TaglineSection = () => {
   return (
-    <div className="py-8 md:py-12 flex flex-col items-center">
+    <div className="py-8 md:py-6 flex flex-col items-center">
       {/* Tagline Pill */}
       <div className="border-2 border-[#ffffff] rounded-full px-6 md:px-10 py-2 md:py-2 mb-2">
         <p className="text-[#ffffff] text-base md:text-lg font-medium tracking-wide">

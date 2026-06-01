@@ -99,7 +99,7 @@ const ParticipantRegistrationForm = () => {
       />
       <div className="bg-[#DCEAB4] rounded-[30px] p-6 md:p-8 w-full max-w-[540px] shadow-xl">
       {/* Form Title */}
-      <h2 className="text-center text-2xl md:text-3xl font-semibold text-[#00796B] mb-8">
+      <h2 className="text-center text-2xl md:text-3xl font-bold text-[#00796B] mb-8">
         Enter the participant's<br />details below.
       </h2>
 
